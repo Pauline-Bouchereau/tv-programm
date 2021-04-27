@@ -1,1 +1,106 @@
-/* Other rules */
+/* Global rules */
+
+:root {
+  --grey: #e5e5e5;
+  --red: #ff014b;
+}
+
+body {
+  font-family: "Montserrat", "Times New Roman", Times, serif;
+}
+
+.container {
+  width: 580px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 35px;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+/* Header */
+header {
+  height: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+header img {
+  width: 80px;
+  margin-right: 25px;
+}
+
+/* Main */
+
+section {
+  display: flex;
+  align-items: center;
+  border-bottom: solid 1px var(--grey);
+  padding-bottom: 15px;
+}
+
+section:not(:last-child) {
+  margin-bottom: 40px;
+}
+
+section p {
+  font-weight: 700;
+  font-size: 12px;
+  margin-right: 25px;
+}
+
+section > div {
+  display: flex;
+}
+
+section > div > img {
+  height: 90px;
+  width: 64px;
+  object-fit: cover;
+  margin-right: 15px;
+  border-radius: 3px;
+}
+
+section span {
+  display: block;
+  font-size: 12px;
+  margin-bottom: 8px;
+}
+
+section > div > div > div {
+  display: flex;
+}
+
+.red {
+  color: var(--red);
+}
+
+/* Footer */
+footer {
+  height: 130px;
+}
+
+footer p {
+  text-align: center;
+  line-height: 130px;
+}
+
+footer a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+footer a:hover {
+  color: var(--red);
+}
