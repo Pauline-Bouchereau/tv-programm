@@ -1,6 +1,6 @@
 # 📺  TV PROGRAM
 
-**A quiet night in ?** CCheck out what is going on M6, the French TV chanel !
+**A quiet night in ?** Check out what is going on M6, the French TV chanel !
 
 **Frontend project**
 
