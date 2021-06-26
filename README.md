@@ -6,7 +6,7 @@
 
 👉 Netlify Link to see the live version [HERE](https://tv-program-pb.netlify.app/)
 
-![Screenshot of the website](./src/assets/jobboard.png)
+![Screenshot of the website](./src/img/tvprog.png)
 
 _Made in 2021 @ Le Reacteur_
 
